@@ -1,0 +1,27 @@
+{
+  "name": "vue",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "openapi": "ts-node openapi.config.ts"
+  },
+  "dependencies": {
+    "axios": "^1.8.1",
+    "element-plus": "^2.9.5",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "@umijs/openapi": "^1.13.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "umi-request": "^1.2.3",
+    "vite": "^6.2.0"
+  }
+}
